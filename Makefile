@@ -1,9 +1,9 @@
-all:q.exe m.exe r.exe
+all:q.exe m.exe h.exe
 q.exe:
 	gcc -o q.exe quicksort.c
 m.exe:
 	gcc -o m.exe mergesort_main.c
-r.exe:
-	gcc -o r.exe radixsort.c
+h.exe:
+	gcc -o h.exe heapsort.c
 clear:
-	rm -f q.exe m.exe r.exe
+	rm -f q.exe m.exe h.exe
